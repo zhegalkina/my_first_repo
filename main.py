@@ -1,7 +1,9 @@
 answer = input("Enter some digits: ")
-answer_1 = 5 + 3
-answer_2 = 5 - 3
-answer_3 = 5 * 3
+a = 5
+b = 3
+answer_1 = a + b
+answer_2 = a - b
+answer_3 = a * b
 print(answer_1, answer_2, answer_3)
 
 
