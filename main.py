@@ -30,10 +30,8 @@
 a = int(input("Input digit 1: "))
 b = int(input("Input digit 2: "))
 if a < b:
-    print(a)
-    print(b)
+    print(a, b)
 elif a > b:
-    print(b)
-    print(a)
+    print(b, a)
 else:
     print("digit 1 = digit 2")
