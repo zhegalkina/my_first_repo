@@ -1,6 +1,6 @@
 
-
-numb = list(range(1,1000))
-for i in numb:
-    numb = numb*2
-    print(numb)
+list1 = []
+for i in range(1,1000):
+    numb = i ** 2
+    list1.append(numb)
+print(list1)
