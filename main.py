@@ -30,16 +30,14 @@
 
 """№ 5"""
 
-def counter(letters):
+def counter(word):
     count = 0
     count_2 = 0
-    letters_2 = ['a', 'e', 'i', 'o', 'u', 'y']
-    for i in letters:
-        if i in letters_2:
+    letters = ['a', 'e', 'i', 'o', 'u', 'y']
+    for i in word:
+        if i in letters:
             count += 1
-    print(count)
-    for i in letters:
-        if i not in letters_2:
+        else:
             count_2 += 1
-    print(count_2)
-counter(letters = 'tarekioldgsqpozb')
+    print(count, count_2)
+counter(word = 'tarekioldgsqpozb')
