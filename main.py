@@ -33,7 +33,6 @@
 def counter(letters):
     count = 0
     count_2 = 0
-    letters = "tarekioldgsqpozb"
     letters_2 = ['a', 'e', 'i', 'o', 'u', 'y']
     for i in letters:
         if i in letters_2:
@@ -43,4 +42,4 @@ def counter(letters):
         if i not in letters_2:
             count_2 += 1
     print(count_2)
-counter(letters= 'tarekioldgsqpozb')
+counter(letters = 'tarekioldgsqpozb')
