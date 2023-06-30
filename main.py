@@ -34,10 +34,16 @@ def counter(word):
     count = 0
     count_2 = 0
     letters = ['a', 'e', 'i', 'o', 'u', 'y']
-    for i in word:
-        if i in letters:
-            count += 1
-        else:
-            count_2 += 1
-    print(count, count_2)
+    # for i in word:
+    #     if i in letters:
+    #         count += 1
+    #     else:
+    #         count_2 += 1
+    # print(count, count_2)
+    list_1 = [i for i in word if i in letters]
+    answer = len(word) - len(list_1)
+    print(len(list_1))
+    print(answer)
+
+
 counter(word = 'tarekioldgsqpozb')
