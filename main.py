@@ -12,9 +12,18 @@
 #     print(args)
 # insect('insect1', 'insect2', 'insect3')
 
-"""№ 3"""
+# """№ 3"""
+#
+# def car(brand, model = "Q7"):
+#     print('{} {}'.format(brand, model))
+# car(brand="audi")
 
-def car(brand, model = "Q7"):
-    print('{} {}'.format(brand, model))
-car(brand="audi")
 
+"""№ 4"""
+
+def fun():
+    phrase = "Привет, питонист!"
+    def fun_2(phrase):
+        print(phrase)
+    fun_2(phrase)
+fun()
