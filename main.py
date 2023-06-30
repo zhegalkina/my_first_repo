@@ -1,5 +1,5 @@
 def calendar(year, month, date):
-    year = 2023
-    month = june
-    date = (" ")
-    print(calendar)
+    print(" it is {} {} {}".format(year, month, date))
+calendar(year = 2023, month = 6, date = " ")
+
+
