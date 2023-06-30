@@ -19,11 +19,28 @@
 # car(brand="audi")
 
 
-"""№ 4"""
+# """№ 4"""
+#
+# def fun():
+#     phrase = "Привет, питонист!"
+#     def fun_2():
+#         print(phrase)
+#     fun_2()
+# fun()
 
-def fun():
-    phrase = "Привет, питонист!"
-    def fun_2(phrase):
-        print(phrase)
-    fun_2(phrase)
-fun()
+"""№ 5"""
+
+def counter(letters):
+    count = 0
+    count_2 = 0
+    letters = "tarekioldgsqpozb"
+    letters_2 = ['a', 'e', 'i', 'o', 'u', 'y']
+    for i in letters:
+        if i in letters_2:
+            count += 1
+    print(count)
+    for i in letters:
+        if i not in letters_2:
+            count_2 += 1
+    print(count_2)
+counter(letters= 'tarekioldgsqpozb')
