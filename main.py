@@ -72,6 +72,7 @@ class Rectangle:
     def __init__(self, width, height):
         self.width = width
         self.height = height
+        square = self.width*self.height
     def square (self):
         return self.width * self.height
 print(Rectangle(width = int(input("Enter width: ")), height = int(input("Enter height: "))).square())
