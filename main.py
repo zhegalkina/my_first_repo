@@ -68,14 +68,22 @@
 
 """№ 7"""
 
-class Rectangle:
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
+# class Rectangle:
+#     def __init__(self, width, height):
+#         self.width = width
+#         self.height = height
+#     def square (self):
+#         return self.width * self.height
+# rectangle_1 = Rectangle(int(input("Enter width: ")), int(input("Enter height: ")))
+# print(rectangle_1.square())
+
+from math import pi
+class Circle:
+    def __int__(self, radius):
+        self.radius = radius
     def square (self):
-        return self.width * self.height
-Rectangle_1 = Rectangle(int(input("Enter width: ")), int(input("Enter height: ")))
-print(Rectangle_1.square())
-
-
-# class cir
+        return self.radius**2*pi
+    def length (self):
+        return 2*pi*self.radius
+circle = Circle(5)
+print(circle.square(), circle.length())
